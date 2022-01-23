@@ -1,0 +1,32 @@
+.footer-block{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    background-color: white;
+}
+
+.footer-block__btn-block{
+    float: right;
+    padding: 10px;
+}
+
+.footer-block__btn1{
+    padding: 8px;
+    margin-right: 13px;
+    color: white;
+    font-size: 17px;
+    background: #dc1020;
+    border: none;
+    font-family: system-ui;
+}
+
+.footer-block__btn2{
+    padding: 8px;
+    color: white;
+    font-size: 17px;
+    background: #dc1020;
+    border: none;
+    font-family: system-ui;
+
+}

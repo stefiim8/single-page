@@ -1,0 +1,147 @@
+<div class="top-block">
+    <div class="top-block__top-row">
+        <i class="fab fa-angrycreative top-block__icon1"></i>
+
+        <div class="top-block__text1">
+            Influence Plan - December 2021
+        </div>
+
+        <div class="top-block__icon2">
+            <i class="fas fa-store-alt"></i>
+        </div>
+
+        <div class="top-block__text2">
+            #738
+        </div>
+    </div>
+
+    <div class="top-block__bottom-row">
+        <div class="top-block__box1">
+            <img class="top-block__img1" src="../../../assets/img/tshirt.jpg"/>
+            <div class="top-block__shirt-text">
+                <p class="top-block__t-shirt"><b>T-shirts</b></p>
+                <p class="top-block__fashion"><b>Fashion</b> | Week T to T + 3</p>
+            </div>
+        </div>
+        <div class="top-block__box2">
+            <p class="top-block__units">Shortage Units </p>
+            <p class="top-block__amount"><b>10,214</b></p>
+
+        </div>
+        <div class="top-block__box3">
+            <p class="top-block__units">Surplus Units </p>
+            <p class="top-block__amount"><b>11,500</b></p>
+        </div>
+        <div class="top-block__box4">
+            <div class="top-block__add1">
+                <p class="top-block__add-text">Additional Revenue Impact</p>
+                <p class="top-block__money-text">$456K</p>
+            </div>
+            <div class="top-block__add2">
+                <p class="top-block__add-text">Additional Gross Profitability</p>
+                <p class="top-block__money-text">$231K</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bottom-block">
+    <div class="bottom-block__left-col">
+        <ul class="bottom-block__list">
+            <li class="bottom-block__list-item1 bottom-block__list-item--active">
+                Diwo's Recommendation
+            </li>
+
+            <li class="bottom-block__list-item2">
+                Your Strategies
+            </li>
+        </ul>
+
+        <ul class="bottom-block__list2">
+            <li class="bottom-block__list2-item bottom-block__list2-item--active">
+                <i class="far fa-list-alt bottom-block__list2-ico bottom-block__list2-ico--active"></i>
+                <span class="bottom-block__list2-text ">Recommandation Details</span>
+            </li>
+
+            <li class="bottom-block__list2-item ">
+                <i class="fas fa-shapes bottom-block__list2-ico"></i>
+                <span class="bottom-block__list2-text">Attribute trends</span>
+            </li>
+            
+            <li class="bottom-block__list2-item ">
+                <i class="fas fa-wave-square bottom-block__list2-ico"></i>
+                <span class="bottom-block__list2-text">SKU Deviation</span>
+            </li>
+
+            <li class="bottom-block__list2-item ">
+                <i class="fas fa-wind bottom-block__list2-ico"></i>
+                <span class="bottom-block__list2-text">Demand vs Planed Curve</span>
+            </li>
+
+            <li class="bottom-block__list2-item ">
+                <i class="far fa-lightbulb bottom-block__list2-ico"></i>
+                <span class="bottom-block__list2-text">Related Insights</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="bottom-block__right-col">
+        <div class="bottom-block__text-box">
+            <div class="bottom-block__title-box">
+                <p class="bottom-block__title">Evidence</p>
+                <i class="fas fa-bullseye bottom-block__ico"></i>
+            </div>
+
+            <p>I see that <b>20 SKUs</b> out of 80 are <b>contributing 85%</b> of estimated demand. The overall model accuracy is about 97% for these SKUs.</p>
+
+            <p>The <b>key drivers</b> are holidays and promo: <b>Buy1Get1</b> and <b>25% off</b>.</p>
+
+            <p>LSTM Models are running on the latest data from Jan-2020 to Dec 2021. Incremental data has been appended to the model training set this week.</p>
+
+        </div>
+
+        <div class="bottom-block__box2">
+            <div class="bottom-block__box2-text">
+                <p class="bottom-block__title-box2">Diwo's Recommandation</p>
+                <p class="bottom-block__subtitle-box2">Influence Buys | T-20 week | Retail Channel | Floorset T to T+3</p>
+            </div>
+
+            <div class="bottom-block__box2-logo">
+                <img src="../../../assets/img/logo3.jpg" alt="">
+            </div>
+        </div>
+        
+        <div class="bottom-block__scroll-box">
+            <div class="bottom-block__box3">
+                <div class="bottom-block__title-box3">Buy Plan Recommendations</div>
+            </div>
+    
+            <div class="bottom-block__box4">
+                <img src="../../../assets/img/tshirt2.jpg" alt="" class="bottom-block__img-box4">
+    
+                <div class="bottom-block__text-box4">
+                    <p class="bottom-block__tshirt-text">T-Shirt</p>
+                    <p class="bottom-block__sku-text">SKU#4323122 | Whitepuffed Collar T-Shirt | AUR <b>$16.99</b> | AUR Wash: 15%</p>
+                </div>
+            </div>
+
+            <div class="bottom-block__box5">
+                <table class="bottom-block__table1">
+                    <tr>
+                        <th *ngFor="let col of tableColumns; index as i" [class.bottom-block__table-first-elem]="i === 0">
+                            {{ col }}
+                        </th>
+                    </tr>
+                </table> 
+
+                <table class="bottom-block__table2">
+                    <tr *ngFor="let elem of [1,2,3,4,5,6,7,8,9,10]" >
+                        <td *ngFor="let col of tableRows; index as i" [class.bottom-block__table-first-elem]="i === 0" [class.bottom-block__table-non-bold]="i === 1 || i === 2 || i === 3">
+                            {{ col }}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

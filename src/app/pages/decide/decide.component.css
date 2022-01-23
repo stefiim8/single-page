@@ -1,0 +1,369 @@
+.top-block{
+    border-radius: 15px;
+    border: 2px solid #989897;
+    width:98%;
+    margin: auto;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    margin-top: 150px;
+}
+
+.top-block__top-row{
+    display: flex;
+    border-bottom: 2px solid #d3d3d3;
+    /* padding: 10px; */
+}
+
+.top-block__icon1{
+    padding: 10px;
+    border-right: 1px solid #d3d3d3;
+    font-size: 25px;
+}
+
+.top-block__text1{
+    margin: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #111;
+    margin-right: 0;
+    align-self: center;
+}
+
+.top-block__icon2{
+    margin: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #111;
+    margin-right: 0;
+    align-self: center;
+}
+
+.top-block__text2{
+    margin: 10px;
+    padding-right: 10px;
+    align-self: center;
+}
+
+.top-block__bottom-row{
+    display: flex;
+    /* align-items: center;
+    justify-content: space-between; */
+}
+
+.top-block__box1{
+    width: 130%;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    padding-left: 20px;
+    display: flex;
+    background-color: #efefef;
+    border-radius: 0 0 0 15px;
+    border-right: 2px solid #d3d3d3;
+}
+
+.top-block__img1{
+    margin-right: 20px;
+}
+
+.top-block__shirt-text{
+    align-self: center;
+}
+
+.top-block__t-shirt{
+    margin: 0;
+}
+
+.top-block__fashion{
+    margin: 0;
+}
+
+.top-block__box2{
+    width: 100%;
+    border-right: 1.5px solid #d3d3d3;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.top-block__units{
+    font-size: 15px;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.top-block__amount{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 10px
+}
+
+.top-block__box3{
+    width: 100%;
+    border-right: 2px solid #d3d3d3;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-block__box4{
+    width: 100%;
+    background-color: #eef7e7;
+    border-radius: 0 0 15px 0;
+}
+
+.top-block__add1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d3d3d3;
+    padding-left: 10px;
+}
+
+.top-block__add2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.top-block__add-text{
+    font-size: 15px;
+    color: #abafa7;
+    align-self: center;
+}
+
+.top-block__money-text{
+    padding-right: 10px;
+    margin: 0;
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.bottom-block{
+    width: 100%;
+    height: calc(100vh - 300px);
+    display: flex;
+    margin-top: 30px;
+}
+
+.bottom-block__left-col{
+    border-right: 2px solid #cdcdcd;
+    margin-left: 1%;
+    height: 100%;
+    flex: 1 1 40%;
+}
+
+.bottom-block__list{
+    display: flex;
+    list-style: none;
+    border-bottom: 1px solid #cdcdcd;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-block__list-item1{
+    font-family: system-ui;
+    font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.bottom-block__list-item2{
+    font-family: system-ui;
+    font-size: 20px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 15px;  
+}
+
+.bottom-block__list-item--active{
+    font-weight: bold;
+    border-bottom: 5px solid #e31421;
+}
+
+.bottom-block__list2{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom-block__list2-item{
+    font-size: 23px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+    display: flex;
+    align-items: center;
+    border-top: 2px solid #e2e2e2;
+    color: #969695;
+}
+
+.bottom-block__list2-item--active{
+    font-weight: bold;
+    border-bottom: 4px solid #e31421;
+    padding-bottom: 25px;
+    color: black;
+}
+
+.bottom-block__list2-ico{
+    font-size: 30px;
+    margin-right: 25px;
+}
+
+.bottom-block__list2-ico--active{
+    color: #e31421;
+}
+
+.bottom-block__list2-text{
+    align-self: center;
+}
+
+.bottom-block__right-col{
+    margin-left: 1%;
+}
+
+.bottom-block__text-box{
+    padding: 20px;
+    background-color: #f8f8f8;
+    color: #4d4d4d;
+    font-size: 26px;
+    margin-right: 20px;
+}
+
+.bottom-block__title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.bottom-block__title{
+    color: #4d4d4d;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bottom-block__ico{
+    font-size: 30px;
+    color: #e31421;
+}
+
+.bottom-block__box2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border-bottom: 2px solid #c1c1c1;
+}
+
+.bottom-block__title-box2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bottom-block__subtitle-box2{
+    color: #747474;
+    margin-top: 0px;
+}
+
+.bottom-block__scroll-box{
+    margin-bottom: 60px;
+    height: calc(100% - (152px + 359px + 129px));
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.bottom-block__scroll-box::-webkit-scrollbar {
+    display: none;
+}
+
+.bottom-block__box3{
+    margin: 20px;
+    margin-top: 35px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 29%, rgba(125,192,81,1) 100%);
+}
+
+.bottom-block__title-box3{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7dc051;
+}
+
+.bottom-block__box4{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.bottom-block__img-box4{
+    border-left: 10px solid #5bb210;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.bottom-block__tshirt-text{
+    color: #5bb210;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.bottom-block__sku-text{
+    color: #959594;
+    margin: 0;
+    font-size: 18px;
+}
+
+.bottom-block__box5{
+    margin: 20px;
+}
+
+.bottom-block__table1{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: calc(100% / 7);
+    text-align: center;
+    font-weight: normal;
+}
+
+.bottom-block__table2{
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+    width: calc(100% / 7);
+    text-align: center;
+    border: none;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.bottom-block__table-first-elem{
+    text-align: left;
+}
+
+.bottom-block__table-non-bold{
+    font-weight: normal;
+}

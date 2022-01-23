@@ -1,0 +1,95 @@
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.top-menu{
+    background-color: #fff;
+    border-bottom: 2px solid #a6a6a6;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-menu__left-block{
+    display: flex;
+}
+
+.top-menu__img-block{
+    border-right: 2px solid #e20a17;
+}
+
+.top-menu__img{
+    width: 75px;
+    height: 75px;
+    object-fit: contain;    
+}
+
+.top-menu__list{
+    display: flex;
+}
+
+.top-menu__item{
+    margin-right: 25px;
+    padding: 10px;
+    list-style-type: none;
+    height: 82%;
+}
+
+.top-menu__item{
+    cursor: pointer;
+}
+
+.top-menu__item--active{
+    color: #e20a17;
+    border-bottom: 4px solid #e20a17;
+    font-weight: bold;
+}
+
+.top-menu__right-block{
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.top-menu__icon{
+    font-size: 40px;
+    color: #bfbfbf;
+    margin-right: 10px;
+}
+
+.top-menu__img2{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;   
+    margin-right: 5px;
+}
+
+.clock{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: -15px;
+    margin-bottom: 20px;
+}
+
+.clock__clock-icon{
+    margin-right: 10px;
+    color: #e20a17;
+}
+
+.clock__date{
+    margin-right: 10px;
+    color: #bfbfbf;
+    font-size: 12px;
+}
+
+.clock__arrow-icon{
+    color: #e20a17;
+
+}
